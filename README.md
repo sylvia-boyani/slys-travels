@@ -26,26 +26,27 @@
 
 - [Description](#description)
 - [Features](#features)
-- [Behaviour Driven Development](#Behaviour-Driven-Development)
+- [Behavior Driven Development](#behavior-driven-development)
 - [Requirements](#requirements)
 - [Installation Process](#installation-Process)
 - [Live Link](#Live-Link)
 - [Technology  Used](#technology-Used)
-- [Licence](#licence)
+- [License](#licence)
 - [Authors Info](#Authors-Info) -
 
 ## Description
 
-  <p>This project hosts and displays information about my personal travel destinations that I would love to go to. And Anyone intrested can contact me and we join and go on adventures together.
+  <p>This project hosts and displays information about my personal travel destinations that I would love to go to. And Anyone interested can contact me and we join and go on adventures together.
 
 ## Features
 As a user of the application,you will be able to :
-1. Find information about my trips and adventures.
-1. Access a free API for more inspirational trave Videos.
+1. Sign in to get access to more information about travel destinations.
+2. Find information about my trips and adventures.
+3. Access a free API for more inspirational travel Videos.
   
 
 
-## Behaviour Driven Development|
+## Behavior Driven Development|
 
 Show information about my future destinations that i would like to visit and inspire someone else or even more people to join me so we can go on adventures together.
 
@@ -55,22 +56,20 @@ Show information about my future destinations that i would like to visit and ins
 - Access to internet
 
 ### Installation Process
-
-- Clone to thir repo : git clone <https://github.com/sylvia-boyani/phase2-project.git>
+- Fork the project from GitHub repository
+- Clone to their repo onto your local machine: git clone <https://github.com/sylvia-boyani/slys-travels.git>
 - Unzip the downloaded files in a folder of choice.
 - open the folder and one can run npm start to start the app in any(chrome) browser.
 
-### Heroku live link <https://phase2-project-sly.herokuapp.com/>
+### Heroku live link <https://phase4-project-sly.herokuapp.com/>
 
-### API link <https://travel-videos.herokuapp.com/travelvideos>
 
 
 ### Technology used
 
 - React - to create the frontend part of the app.
-- Heroku - to host the react App.
-         - to create the API
-         - to host the backend(API) of the project.
+- Ruby on Rails- to create the backend(API) of the project.
+- Heroku - to deploy and host the react App.
 
 ### License
 
