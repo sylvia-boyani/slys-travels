@@ -1,0 +1,33 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  node_id: MyString
+  avatar_url: MyString
+  gravatar_id: MyString
+  url: MyString
+  html_url: MyString
+  followers_url: MyString
+  following_url: MyString
+  gists_url: MyString
+  starred_url: MyString
+  subscriptions_url: MyString
+  organization_url: MyString
+  repos_url: MyString
+  events_url: MyString
+  received: MyString
+
+two:
+  node_id: MyString
+  avatar_url: MyString
+  gravatar_id: MyString
+  url: MyString
+  html_url: MyString
+  followers_url: MyString
+  following_url: MyString
+  gists_url: MyString
+  starred_url: MyString
+  subscriptions_url: MyString
+  organization_url: MyString
+  repos_url: MyString
+  events_url: MyString
+  received: MyString
