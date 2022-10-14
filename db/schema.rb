@@ -11,36 +11,7 @@
 # It's strongly recommended that you check this file into your version control system.
 
 ActiveRecord::Schema[7.0].define(version: 2022_10_14_100130) do
-  create_table "logins", force: :cascade do |t|
-    t.string "login"
-    t.string "node_id"
-    t.string "avatar_url"
-    t.string "gravatar_id"
-    t.string "url"
-    t.string "html_url"
-    t.string "followers_url"
-    t.string "following_url"
-    t.string "gists_url"
-    t.string "starred_url"
-    t.string "subscriptions_url"
-    t.string "organization_url"
-    t.string "repos_url"
-    t.string "events_url"
-    t.string "received_events_url"
-    t.string "username"
-    t.boolean "site_admin"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
-  create_table "pics", force: :cascade do |t|
-    t.string "name"
-    t.string "image_url"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
-  create_table "places", force: :cascade do |t|
+    create_table "places", force: :cascade do |t|
     t.string "name"
     t.string "image_url"
     t.datetime "created_at", null: false
