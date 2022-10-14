@@ -1,15 +1,12 @@
 import React, {Component, createContext} from 'react'
 import axios from 'axios'
-import AxiosHelper from '../utils/Requests/AxiosHelper'
 import AxiosWrapper from '../utils/Requests/AxiosWrapper'
 import Authenticate from '../utils/Auth/Authenticate'
 
 const AuthContext = createContext()
 class AuthProvider extends Component {
   state = { isAuth: false, email: '' }
-  constructor(props){
-    super(props)
-  }
+  
   componentDidMount(){
     Authenticate()
     .then( (resp) => this.setState({ ...resp }) )
