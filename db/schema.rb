@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2022_10_14_050506) do
+ActiveRecord::Schema[7.0].define(version: 2022_10_14_100130) do
   create_table "logins", force: :cascade do |t|
     t.string "login"
     t.string "node_id"
@@ -43,6 +43,14 @@ ActiveRecord::Schema[7.0].define(version: 2022_10_14_050506) do
   create_table "places", force: :cascade do |t|
     t.string "name"
     t.string "image_url"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "users", force: :cascade do |t|
+    t.string "name"
+    t.string "email"
+    t.integer "age"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
